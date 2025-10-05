@@ -51,7 +51,8 @@ Simulator.js → Node.js Server → MongoDB Atlas → Node-RED → Dashboard (Ga
 ```
 /medicalsense-iot
   |── simulator │── simulator.js # Patient vitals simulator
-  |── api │── server.js # Node.js server + MongoDB 
+  |── api │── server.js # Node.js server + MongoDB
+          |── .env # Stores the connection string and any other private credentials
 │── README.md # Project documentation
 │── package.json
 ```
